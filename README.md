@@ -18,8 +18,11 @@ Setup
 Run commands:
 
 `rsync -av vendor/fredde/weather/config ./`
+
 `rsync -av vendor/fredde/weather/src ./`
+
 `rsync -av vendor/fredde/weather/test ./`
+
 `rsync -av vendor/fredde/weather/view ./`
 
 These commands will place the files in the correct folders.
@@ -39,7 +42,7 @@ return array(
 
 You might want to ignore this file in a potential GitHub repository by adding the filename in your gitignore-file.
 
-Here is an example of how to add a link to the weather service in yout navbar:
+Here is an example of how to add a link to the weather service in your navbar:
 
 ```
 [
