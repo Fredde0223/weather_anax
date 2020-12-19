@@ -1,0 +1,32 @@
+{
+    "name" : "fredde/weather",
+    "type": "library",
+    "description": "A weather module.",
+    "keywords": ["OpenWeatherMap", "weather"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredrik Ahnell",
+            "email": "frah19@student.bth.se",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/",
+            "Fredde\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "anax/commons": "^2.0.14"
+    },
+    "require-dev": {
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/anax": "^2.0.17"
+    }
+}
