@@ -42,7 +42,7 @@ return array(
 
 You might want to ignore this file in a potential GitHub repository by adding the filename in your gitignore-file.
 
-Here is an example of how to add a link to the weather service in your navbar:
+Here is an example of how to add a link to the weather service in your header navbar:
 
 ```
 [
