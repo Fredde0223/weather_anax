@@ -107,7 +107,7 @@ class DIWeatherTest extends TestCase
         $urlarray = $class->getHistoryUrls("48.86", "2.35");
         $this->assertIsArray($urlarray);
 
-        $urlarray = $class->getForecastUrl("48.86", "2.35");
+        $urlarray = $class->getForecastUrls("48.86", "2.35");
         $this->assertIsArray($urlarray);
     }
 
@@ -129,7 +129,7 @@ class DIWeatherTest extends TestCase
     {
         $class = $this->di->get("weather");
 
-        $urlarray = $class->getForecastUrl("48.86", "2.35");
+        $urlarray = $class->getForecastUrls("48.86", "2.35");
         $weatherinfo = $class->getWeather($urlarray);
         $loopvals = $class->checkTimezone($weatherinfo);
         $this->assertIsArray($loopvals);
