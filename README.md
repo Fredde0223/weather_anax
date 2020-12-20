@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/Fredde0223/weather_anax.svg?branch=main)](https://travis-ci.org/Fredde0223/weather_anax)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Fredde0223/weather_anax/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/Fredde0223/weather_anax/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/Fredde0223/weather_anax/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/Fredde0223/weather_anax/?branch=main)
+
 Weather module for Anax
 =======================
 
