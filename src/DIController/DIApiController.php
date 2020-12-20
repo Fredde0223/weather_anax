@@ -23,7 +23,7 @@ class DIApiController implements ContainerInjectableInterface
 
         $page = $this->di->get("page");
 
-        $page->add("DI/apiWeatherDI");
+        $page->add("di/apiWeatherDI");
 
         return $page->render([
             "title" => $title,
