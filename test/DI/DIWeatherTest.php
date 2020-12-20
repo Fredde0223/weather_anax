@@ -122,17 +122,4 @@ class DIWeatherTest extends TestCase
         $mapstring = $class->getOSM("48.86", "2.35");
         $this->assertIsString($mapstring);
     }
-
-    /**
-     * testing timezone
-     */
-    public function testCheckTimezone()
-    {
-        $class = $this->di->get("weather");
-
-        $urlarray = $class->getForecastUrls("48.86", "2.35");
-        $weatherinfo = $class->getWeather($urlarray);
-        $loopvals = $class->checkTimezone($weatherinfo);
-        $this->assertIsArray($loopvals);
-    }
 }
