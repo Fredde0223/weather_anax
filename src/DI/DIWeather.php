@@ -29,11 +29,11 @@ class DIWeather
         curl_close($curl);
         $res = json_decode($jsonRes, true);
 
-        $lat = $res['latitude'];
-        $lon = $res['longitude'];
-        $city = $res['city'];
-        $country = $res['country_name'];
-        $zip = $res['zip'];
+        $lat = $res['latitude'] ?? null;
+        $lon = $res['longitude'] ?? null;
+        $city = $res['city'] ?? null;
+        $country = $res['country_name'] ?? null;
+        $zip = $res['zip'] ?? null;
 
         return [$lat, $lon, $city, $country, $zip];
     }
