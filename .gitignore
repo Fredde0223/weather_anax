@@ -1,3 +1,5 @@
 /a
+/build
 /vendor
+.bin
 composer.lock
